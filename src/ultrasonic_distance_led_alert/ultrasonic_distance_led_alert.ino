@@ -5,7 +5,7 @@ LiquidCrystal LCD(11,10,9,2,3,4,5);  //Create Liquid Crystal Object called LCD
 #define echoPin 12 //Sensor Trip pin connected to Arduino pin 12
 #define ledPin 8   //LED on pin 6 (pin 9 is used by the LCD)
 
-const long threshold = 15;          // flash when distance is at or below this (cm)
+const long threshold = 10;          // flash when distance is at or below this (cm)
 unsigned long previousMillis = 0;   // time of last LED toggle
 bool ledState = false;              // tracks whether LED is on or off
 
