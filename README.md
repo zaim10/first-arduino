@@ -3,7 +3,7 @@ An automated proximity warning system utilising an ultrasonic sensor via Arduino
 
 Calculates distance via readings from a HC-SR04 sensor, displays it on a 16x2 LCD, and flashes an LED when target is within threshold distance.
 
-[Project adapted from AhmedDjebali]
+[Project adapted from AhmedDjebali's ultrasonic sensor code]
 
 ## Hardware
 - Arduino Uno R3
