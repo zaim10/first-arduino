@@ -18,7 +18,7 @@ Calculates distance via readings from a HC-SR04 sensor, displays it on a 16x2 LC
 | HC-SR04 Trig     | 13                 |
 | HC-SR04 Echo     | 12                 |
 | LCD RS, E, D4–D7 | 11, 10, 2, 3, 4, 5 |
-| LED (via 220Ω)   | 6                  |
+| LED (via 220Ω)   | 8                  |
 
 ## Usage
 1. Open `src/ultrasonic_distance_led_alert.ino` in the Arduino IDE.
